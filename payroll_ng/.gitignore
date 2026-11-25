@@ -1,0 +1,5 @@
+db/
+payroll/
+tmp/
+__pycache__/
+.nicegui/

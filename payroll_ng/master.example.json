@@ -1,0 +1,26 @@
+{
+    "demo": {
+        "name": "demo",
+        "login": {"username": "your-zota-username", "password": "your-zota-password"},
+        "active": true,
+        "path": "../db/",
+        "paymentsFnames": {},
+        "employees": {
+            "Anna": {"active": true, "name": "Anna", "checkName": "", "salonName": "demo",
+                     "pay6": 900, "pay7": 150, "fees": 5, "rent": 60, "printchecks": true,
+                     "type": {"role": "Regular", "regular": {"commission": 0.6, "check": 0.6},
+                              "special": {"commissionspecial": 0, "checkdeal": 0, "checkoriginal": 0, "cashrate": 0}},
+                     "workdays": {"mon": false, "tue": false, "wed": false, "thu": false, "fri": false, "sat": false, "sun": false}},
+            "Bao": {"active": true, "name": "Bao", "checkName": "BAO NGUYEN", "salonName": "demo",
+                    "pay6": 1200, "pay7": 0, "fees": 5, "rent": 0, "printchecks": true,
+                    "type": {"role": "Checkdeal", "regular": {"commission": 0, "check": 0},
+                             "special": {"commissionspecial": 0.6, "checkdeal": 0.5, "checkoriginal": 0.6, "cashrate": 0}},
+                    "workdays": {"mon": false, "tue": false, "wed": false, "thu": false, "fri": false, "sat": false, "sun": false}},
+            "Cam": {"active": true, "name": "Cam", "checkName": "", "salonName": "demo",
+                    "pay6": 600, "pay7": 0, "fees": 0, "rent": 0, "printchecks": true,
+                    "type": {"role": "Janitor", "regular": {"commission": 0, "check": 0.5},
+                             "special": {"commissionspecial": 0, "checkdeal": 0, "checkoriginal": 0, "cashrate": 0}},
+                    "workdays": {"mon": true, "tue": true, "wed": true, "thu": false, "fri": true, "sat": true, "sun": false}}
+        }
+    }
+}
